@@ -5,6 +5,8 @@
     st r0, r1 
     inc r0
     st r0, r1
+    ldi r0, 95
+    st r0, r1
 	
 	halt
 	end
