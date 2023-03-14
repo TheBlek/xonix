@@ -1,12 +1,28 @@
 	asect 0x00
     
-    ldi r0, 96
-    ldi r1, 0b11001010
-    st r0, r1 
-    inc r0
-    st r0, r1
-    ldi r0, 95
+    ldi r0, display # zero-th byte of a display
+    ldi r1, flush # flush byte address
+    ldi r2, keyboard # keyboard data address
+
+    while
+    stays nz  
+        ld r2, r3 # Read keyboard input
+        st r0, r3 # Print it to the first byte of the display
+        st r1, r0 # Write smth to flush. Doesn't matter what
+    wend
     st r0, r1
 	
 	halt
+
+    asect 0x5e
+keyboard:
+    ds 1
+
+    asect 0x5f
+flush:
+    ds 1
+    
+    asect 0x60
+display:
+    ds 128
 	end
