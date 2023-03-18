@@ -16,13 +16,10 @@
 
     asect 0x5e
 keyboard:
-    ds 1
 
     asect 0x5f
 flush:
-    ds 1
     
     asect 0x60
 display:
-    ds 128
 	end
