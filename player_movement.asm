@@ -1,21 +1,21 @@
 	asect 0x00
 
     while
-        ldi r1, player_y
-        tst r1
-    stays nz
-        ldi r0, player_x
-        ld r0, r0
-
-        ld r1, r1
-
         ldi r2, keyboard
+        tst r2
+    stays nz
         ld r2, r2
 
         if 
             tst r2
         is z
-            jmp save_pos
+            ldi r0, player_x
+            ld r0, r0
+
+            ldi r1, player_y
+            ld r1, r1
+
+            jmp draw
         fi 
 
         ldi r3, 1
@@ -25,22 +25,28 @@
         is cs
             neg r3
         fi
-        
+
         if
             shr r2
         is cs
+            ldi r1, player_x
+            ld r1, r0
             add r3, r0
+            st r1, r0
+
+            ldi r1, player_y
+            ld r1, r1
         else
+            ldi r0, player_y
+            ld r0, r1
             add r3, r1
+            st r0, r1
+
+            ldi r0, player_x
+            ld r0, r0
         fi
 
-save_pos:
-        # Saving modified coordinates
-        ldi r2, player_x
-        st r2, r0
-        ldi r2, player_y
-        st r2, r1
-        
+draw:
         # dividing by 8 with remainder
         # to find place in byte and byte itself
         # for x coordinate
