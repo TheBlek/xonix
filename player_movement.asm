@@ -26,17 +26,14 @@ draw:
         ldi r3, display
         add r3, r0
 
-        # Save what's in the display and place player
+        # Add player to the scene
         ld r0, r2
+        or r2, r1
         st r0, r1
 
         # Flush the buffer
         ldi r3, flush
         st r3, r1
-       
-        # Trick to disable player after next move
-        # By storing saved data
-        st r0, r2
     wend
 	
 	halt
