@@ -28,12 +28,19 @@ draw:
 
         # Add player to the scene
         ld r0, r2
-        or r2, r1
+        xor r2, r1
         st r0, r1
 
         # Flush the buffer
         ldi r3, flush
         st r3, r1
+
+        # Restore player byte by reversing xor operation
+        xor r2, r1
+        # Add player byte to the background
+        or r2, r1
+        # Place background to screen
+        st r0, r1
     wend
 	
 	halt
