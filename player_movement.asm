@@ -1,5 +1,10 @@
 	asect 0x00
 
+    ldi r0, override_screen
+    st r0, r0
+    ldi r0, flush
+    st r0, r0
+
     # Initialize player byte
     ldi r0, player_byte
     ldi r1, 0b10000000
@@ -50,6 +55,7 @@ define player_byte, 0x01
 define player_x, 0x02
 define player_y, 0x03
 define calculate_player, 0x04
+define override_screen, 0x05
 
 define keyboard, 0x5e
 define flush, 0x5f
