@@ -50,6 +50,10 @@ draw:
 	
 	halt
 
+		
+    wend
+
+
 define player_offset, 0x00
 define player_byte, 0x01
 define player_x, 0x02
