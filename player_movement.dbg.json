@@ -1,0 +1,882 @@
+{
+    "0": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 307
+    },
+    "1": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 308
+    },
+    "2": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 309
+    },
+    "3": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 310
+    },
+    "4": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 311
+    },
+    "5": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 312
+    },
+    "6": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 9
+    },
+    "8": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 10
+    },
+    "10": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 11
+    },
+    "11": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 12
+    },
+    "13": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 15
+    },
+    "15": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 16
+    },
+    "16": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 313
+    },
+    "17": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 314
+    },
+    "18": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 22
+    },
+    "21": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 24
+    },
+    "23": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 25
+    },
+    "24": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 28
+    },
+    "26": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 29
+    },
+    "27": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 32
+    },
+    "28": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 35
+    },
+    "30": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 36
+    },
+    "31": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 39
+    },
+    "32": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 40
+    },
+    "33": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 42
+    },
+    "34": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 45
+    },
+    "35": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 46
+    },
+    "37": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 47
+    },
+    "38": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 48
+    },
+    "39": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 52
+    },
+    "42": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 55
+    },
+    "43": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 57
+    },
+    "46": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 60
+    },
+    "49": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 61
+    },
+    "52": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 64
+    },
+    "54": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 65
+    },
+    "55": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 66
+    },
+    "56": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 69
+    },
+    "57": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 70
+    },
+    "59": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 71
+    },
+    "61": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 72
+    },
+    "62": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 73
+    },
+    "65": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 78
+    },
+    "66": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 79
+    },
+    "69": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 81
+    },
+    "71": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 82
+    },
+    "72": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 83
+    },
+    "77": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 87
+    },
+    "78": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 88
+    },
+    "80": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 89
+    },
+    "82": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 90
+    },
+    "83": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 92
+    },
+    "85": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 93
+    },
+    "87": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 94
+    },
+    "88": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 95
+    },
+    "89": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 96
+    },
+    "90": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 98
+    },
+    "92": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 99
+    },
+    "93": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 100
+    },
+    "94": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 316
+    },
+    "95": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 317
+    },
+    "96": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 318
+    },
+    "97": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 108
+    },
+    "98": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 110
+    },
+    "101": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 112
+    },
+    "102": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 119
+    },
+    "104": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 120
+    },
+    "105": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 121
+    },
+    "106": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 122
+    },
+    "107": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 123
+    },
+    "108": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 125
+    },
+    "110": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 126
+    },
+    "111": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 127
+    },
+    "113": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 130
+    },
+    "116": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 132
+    },
+    "117": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 133
+    },
+    "120": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 136
+    },
+    "121": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 137
+    },
+    "122": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 138
+    },
+    "123": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 139
+    },
+    "124": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 140
+    },
+    "125": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 141
+    },
+    "126": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 144
+    },
+    "127": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 147
+    },
+    "129": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 148
+    },
+    "130": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 149
+    },
+    "132": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 151
+    },
+    "135": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 153
+    },
+    "137": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 154
+    },
+    "138": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 155
+    },
+    "139": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 157
+    },
+    "141": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 158
+    },
+    "142": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 159
+    },
+    "143": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 163
+    },
+    "144": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 164
+    },
+    "145": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 165
+    },
+    "146": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 166
+    },
+    "147": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 168
+    },
+    "150": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 171
+    },
+    "151": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 172
+    },
+    "152": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 173
+    },
+    "153": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 174
+    },
+    "154": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 177
+    },
+    "155": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 178
+    },
+    "156": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 179
+    },
+    "157": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 180
+    },
+    "158": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 181
+    },
+    "159": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 188
+    },
+    "160": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 190
+    },
+    "161": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 191
+    },
+    "162": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 192
+    },
+    "163": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 193
+    },
+    "164": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 194
+    },
+    "165": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 198
+    },
+    "168": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 200
+    },
+    "171": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 202
+    },
+    "174": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 204
+    },
+    "175": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 206
+    },
+    "176": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 207
+    },
+    "177": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 209
+    },
+    "180": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 211
+    },
+    "181": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 212
+    },
+    "183": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 213
+    },
+    "186": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 216
+    },
+    "188": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 217
+    },
+    "191": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 220
+    },
+    "194": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 224
+    },
+    "197": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 229
+    },
+    "198": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 230
+    },
+    "200": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 231
+    },
+    "201": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 234
+    },
+    "202": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 235
+    },
+    "204": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 236
+    },
+    "205": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 237
+    },
+    "206": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 239
+    },
+    "208": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 240
+    },
+    "209": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 241
+    },
+    "210": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 243
+    },
+    "213": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 245
+    },
+    "215": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 246
+    },
+    "216": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 248
+    },
+    "218": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 249
+    },
+    "219": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 251
+    },
+    "221": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 252
+    },
+    "223": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 253
+    },
+    "224": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 257
+    },
+    "227": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 259
+    },
+    "228": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 260
+    },
+    "229": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 261
+    },
+    "230": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 263
+    },
+    "231": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 264
+    },
+    "232": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 265
+    },
+    "235": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 267
+    },
+    "236": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 268
+    },
+    "239": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 273
+    },
+    "240": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 274
+    },
+    "241": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 275
+    },
+    "242": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 276
+    },
+    "243": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 281
+    },
+    "245": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 282
+    },
+    "247": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 283
+    },
+    "248": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 284
+    },
+    "249": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 285
+    },
+    "250": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 286
+    },
+    "251": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 287
+    },
+    "252": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 288
+    },
+    "253": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 290
+    },
+    "254": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 291
+    },
+    "255": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 292
+    },
+    "256": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 294
+    },
+    "257": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 295
+    },
+    "258": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 296
+    },
+    "259": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 298
+    },
+    "260": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 302
+    },
+    "262": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 303
+    },
+    "263": {
+        "column": 0,
+        "file": "/home/theblek/dev/xonix/player_movement.asm",
+        "line": 304
+    }
+}

@@ -9,7 +9,7 @@
     ldi r0, player_byte
     ldi r1, 0b10000000
     st r0, r1
-    ldi r3, 0
+    ldi r3, 1
 
     while
         ldi r1, player_byte
@@ -56,23 +56,28 @@
                 # Check if new player position is colored
                 and r2, r3
             is nz
-                # Reset keyboard input
-                ldi r3, reset_keyboard
-                ld r3, r3
-                st r3, r0
+                if
+                    jsr isInTail
+                    tst r3
+                is z # And if not in tail
+                    # Reset keyboard input
+                    ldi r3, reset_keyboard
+                    ld r3, r3
+                    st r3, r0
 
-                # TODO: Color the territory
-                push r2 # Basically remove all turns
-                ldi r3, turn_count
-                ldi r2, 0
-                st r3, r2
-                pop r2
+                    # TODO: Color the territory
+                    push r2 # Basically remove all turns
+                    ldi r3, turn_count
+                    ldi r2, 0
+                    st r3, r2
+                    pop r2
+                fi
             fi
         else # If old player position was colored
             if
                 move r1, r3
                 and r2, r3
-            is nz, or # If new player position is colored and there are no turns recorded
+            is nz, or # If new player position is not colored and there are no turns recorded
                 ldi r3, turn_count
                 ld r3, r3
                 tst r3
@@ -134,6 +139,96 @@ checkCoord:
 	ld r0, r1 # r1 now is a byte
 	and r3, r1 # r1 now has only requested bit (i.e. 0b00000100)
 	rts
+
+isInTail: # Checks if player is in it's tail
+    pushall
+
+    # go through all segments and check if player is between endpoints
+    ldi r1, turn_count
+    ld r1, r1
+    ldi r0, turns
+    while
+        dec r1
+    stays gt
+        ldi r2, player_y
+        ld r2, r2
+        push r2
+
+        ldi r2, player_x
+        ld r2, r2
+        push r2
+
+        # If segment has constant x then player_y must be between y0 and y1
+        # Analogous with constant y
+        ld r0, r2 # Load previous x
+        inc r0
+        inc r0
+        ld r0, r3 # Load next turn's x
+        if
+            cmp r3, r2
+        is eq
+            # Then y must be different
+            pop r3 # Reorder player_x and player_y in stack
+            pop r2
+            push r3
+            push r2
+
+            # Load prev y in r2 and next y in r3 
+            dec r0
+            ld r0, r2
+            inc r0
+            inc r0
+            ld r0, r3
+        fi
+        # Now that we determined coord that is changed (Lets call it z)
+        # Now stack looks like this: z (not z)
+        # And r3, r2 are z's of ends of a segment
+        # And r0 is pointer to end's z of a segment
+        # Player_z must be between those two
+        pop r3 # Load player change coord
+        # player_z - start_z and player_z - end_z must have different signes
+        sub r3, r2 
+        push r2
+        ld r0, r2
+        sub r3, r2
+        pop r3
+
+        # r3 and r2 must have different signs
+        if
+            tst r3
+        is z, or
+            tst r2
+        is z, or
+            xor r3, r2
+        is le
+            pop r3 # Pop player's (not z) from stack
+            # It must equal segment's (not z)
+            dec r0
+            ld r0, r2
+            if
+                cmp r3, r2
+            is eq
+                popall
+                ldi r3, 1
+                rts
+            else
+                if 
+                    ldi r2, 1
+                    and r0, r2
+                is z # If this is a pointer to y (if it's even)
+                    # Increase
+                    inc r0
+                fi
+            fi
+        else
+            pop r3
+        fi
+        
+    wend
+
+    popall
+    ldi r3, 0 
+    rts
 
 changeMovement:
     pushall
@@ -207,11 +302,8 @@ calculatePlayer: # update player position
 	ldi r3, calculate_player 
 	st r3, r3 
 	rts
-	
-	
 
 
-define player_offset, 0x00
 define player_byte, 0x01
 define player_x, 0x02
 define player_y, 0x03
