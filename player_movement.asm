@@ -303,6 +303,42 @@ calculatePlayer: # update player position
 	st r3, r3 
 	rts
 
+colorTheScreen:
+    # r1, r3 - source x and y
+    # r2, r4 - destination x and y
+    pushall
+
+    while # while src x != dest x
+        sub r1, r2 
+        tst r2
+        stays nz
+            jsr getByteByX # now r0 - number of a byte
+            ldi r1, 0b11111111 # byte is now colored
+            st r0 r1
+            ldi r0, flush
+            st r0, r0
+    wend
+    rts
+
+getByteByX:
+	# r0 - xCoord, r1 - yCoord
+	# dividing by 8 with remainder
+	# to find place in byte and byte itself
+	# for x coordinate
+	ldi r2, 0x07
+	and r0, r2
+	shra r0
+	shra r0
+	shra r0
+
+	ldi r3, display
+	add r3, r0
+
+	shla r1
+	shla r1	
+	add r1, r0 # r0 now is the number of a byte
+	ld r0, r1  # r1 now is a byte
+	rts
 
 define player_byte, 0x01
 define player_x, 0x02
