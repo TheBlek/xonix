@@ -1,0 +1,677 @@
+{
+    "0": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 37
+    },
+    "1": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 40
+    },
+    "2": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 43
+    },
+    "3": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 46
+    },
+    "4": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 49
+    },
+    "5": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 52
+    },
+    "6": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 3
+    },
+    "8": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 4
+    },
+    "9": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 5
+    },
+    "11": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 6
+    },
+    "12": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 8
+    },
+    "14": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 9
+    },
+    "16": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 10
+    },
+    "17": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 12
+    },
+    "19": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 13
+    },
+    "21": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 14
+    },
+    "22": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 16
+    },
+    "24": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 17
+    },
+    "26": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 18
+    },
+    "27": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 20
+    },
+    "29": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 21
+    },
+    "31": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 22
+    },
+    "32": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 24
+    },
+    "34": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 25
+    },
+    "36": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 26
+    },
+    "37": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 29
+    },
+    "40": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 31
+    },
+    "45": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 34
+    },
+    "95": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 55
+    },
+    "100": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 58
+    },
+    "220": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 62
+    },
+    "221": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 63
+    },
+    "222": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 64
+    },
+    "223": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 66
+    },
+    "224": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 67
+    },
+    "226": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 68
+    },
+    "227": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 69
+    },
+    "229": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 72
+    },
+    "230": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 73
+    },
+    "233": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 77
+    },
+    "234": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 78
+    },
+    "236": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 79
+    },
+    "237": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 80
+    },
+    "238": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 81
+    },
+    "241": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 84
+    },
+    "243": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 85
+    },
+    "245": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 87
+    },
+    "248": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 92
+    },
+    "250": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 93
+    },
+    "252": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 95
+    },
+    "255": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 100
+    },
+    "257": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 101
+    },
+    "258": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 103
+    },
+    "259": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 105
+    },
+    "260": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 107
+    },
+    "261": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 108
+    },
+    "262": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 110
+    },
+    "263": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 112
+    },
+    "264": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 114
+    },
+    "265": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 116
+    },
+    "267": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 117
+    },
+    "268": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 120
+    },
+    "269": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 121
+    },
+    "271": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 122
+    },
+    "272": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 123
+    },
+    "273": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 124
+    },
+    "276": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 126
+    },
+    "279": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 128
+    },
+    "280": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 129
+    },
+    "281": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 133
+    },
+    "282": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 134
+    },
+    "284": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 136
+    },
+    "285": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 138
+    },
+    "287": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 141
+    },
+    "288": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 142
+    },
+    "291": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 147
+    },
+    "292": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 148
+    },
+    "294": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 149
+    },
+    "295": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 150
+    },
+    "296": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 151
+    },
+    "299": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 155
+    },
+    "301": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 156
+    },
+    "303": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 157
+    },
+    "306": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 161
+    },
+    "308": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 162
+    },
+    "310": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 164
+    },
+    "311": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 170
+    },
+    "312": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 171
+    },
+    "314": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 172
+    },
+    "315": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 173
+    },
+    "317": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 176
+    },
+    "318": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 177
+    },
+    "320": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 178
+    },
+    "321": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 179
+    },
+    "322": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 180
+    },
+    "325": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 183
+    },
+    "326": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 186
+    },
+    "327": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 187
+    },
+    "328": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 188
+    },
+    "329": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 189
+    },
+    "332": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 193
+    },
+    "334": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 194
+    },
+    "337": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 197
+    },
+    "338": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 198
+    },
+    "340": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 204
+    },
+    "342": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 205
+    },
+    "345": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 210
+    },
+    "346": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 213
+    },
+    "347": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 214
+    },
+    "348": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 215
+    },
+    "349": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 216
+    },
+    "352": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 220
+    },
+    "354": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 221
+    },
+    "357": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 224
+    },
+    "358": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 225
+    },
+    "360": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 231
+    },
+    "362": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 232
+    },
+    "363": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 239
+    },
+    "364": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 240
+    },
+    "366": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 241
+    },
+    "367": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 242
+    },
+    "368": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 243
+    },
+    "371": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 246
+    },
+    "372": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 247
+    },
+    "374": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 248
+    },
+    "375": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 249
+    },
+    "376": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 250
+    },
+    "379": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 254
+    },
+    "380": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 255
+    },
+    "382": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 256
+    },
+    "383": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 257
+    },
+    "384": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 261
+    },
+    "385": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 262
+    },
+    "386": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 263
+    },
+    "387": {
+        "column": 0,
+        "file": "C:\\Users\\admin\\Desktop\\\u041d\u043e\u0432\u0430\u044f \u043f\u0430\u043f\u043a\u0430\\aaa.asm",
+        "line": 265
+    }
+}
