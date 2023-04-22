@@ -303,7 +303,7 @@ calculatePlayer: # update player position
 	st r3, r3 
 	rts
 
-
+define player_offset, 0x00
 define player_byte, 0x01
 define player_x, 0x02
 define player_y, 0x03
