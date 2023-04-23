@@ -1,9 +1,10 @@
 	asect 0x00
 
+    ldi r1, 0
     ldi r0, override_screen
-    st r0, r0
+    st r0, r1
     ldi r0, flush
-    st r0, r0
+    st r0, r1
 
     # Initialize player byte
     ldi r0, player_byte
@@ -64,13 +65,28 @@
                     ldi r3, reset_keyboard
                     ld r3, r3
                     st r3, r0
+                    pushall
+                    
+                    # Color stuff
+                    ldi r2, start_coloring
+                    ldi r0, 0x01
+                    ldi r1, 64
+                    st r2, r2
+                    # Wait until coloring is done
+                    while
+                        ld r2, r3
+                        tst r3
+                    stays z
+                    wend
+                    # Override video buffer with color data
+                    ldi r0, override_screen
+                    st r0, r3 # bc r3 is 1 at this point
 
-                    # TODO: Color the territory
-                    push r2 # Basically remove all turns
+                    # Basically remove all turns
                     ldi r3, turn_count
                     ldi r2, 0
                     st r3, r2
-                    pop r2
+                    popall
                 fi
             fi
         else # If old player position was colored
@@ -194,6 +210,7 @@ isInTail: # Checks if player is in it's tail
         pop r3
 
         # r3 and r2 must have different signs
+        dec r0 # It must equal segment's (not z)
         if
             tst r3
         is z, or
@@ -202,8 +219,6 @@ isInTail: # Checks if player is in it's tail
             xor r3, r2
         is le
             pop r3 # Pop player's (not z) from stack
-            # It must equal segment's (not z)
-            dec r0
             ld r0, r2
             if
                 cmp r3, r2
@@ -211,19 +226,17 @@ isInTail: # Checks if player is in it's tail
                 popall
                 ldi r3, 1
                 rts
-            else
-                if 
-                    ldi r2, 1
-                    and r0, r2
-                is z # If this is a pointer to y (if it's even)
-                    # Increase
-                    inc r0
-                fi
             fi
         else
             pop r3
         fi
-        
+        if 
+            ldi r2, 1
+            and r0, r2
+        is z # If this is a pointer to y (if it's even)
+            # Increase
+            inc r0
+        fi
     wend
 
     popall
@@ -309,6 +322,7 @@ define player_x, 0x02
 define player_y, 0x03
 define calculate_player, 0x04
 define override_screen, 0x05
+define start_coloring, 0x06
 define turn_count, 0x10
 define turns, 0x11
 
