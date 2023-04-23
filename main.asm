@@ -1,7 +1,8 @@
 	asect 0x00
 
+    ldi r1, 0
     ldi r0, override_screen
-    st r0, r0
+    st r0, r1
     ldi r0, flush
     st r0, r0
 
@@ -62,27 +63,26 @@
         # Restore player byte by reversing xor operation
         xor r2, r1
 
-        push r1
-        push r2
+        jsr go
 
-        ldi r1, ball
-        ld r1, r1
+        # pushall
 
-        ldi r2, ballAdress
-        ld r2, r2
+        # ldi r1, ball
+        # ld r1, r1
 
-        st r2, r1
+        # ldi r2, ballAdress
+        # ld r2, r2
 
-        pop r2
-        pop r1
+        # ld r2, r3
+        # or r3, r1
+
+        # st r2, r1
+
 
         # Flush the buffer
-        push r3
-        ldi r3, flush
-        st r3, r1
-        pop r3
-
-        jsr go
+        # ldi r3, flush
+        # st r3, r1
+        # popall
 
         if
             # Check if old player position was not colored
@@ -103,11 +103,11 @@
                     st r3, r0
 
                     pushall
-                    ldi r0, ballAdress
-                    ld r0, r2
-                    
-                    ldi r1, ball
+                    ldi r1, ballAdress
                     ld r1, r1
+                    
+                    ldi r0, ball
+                    ld r0, r0
 
                     ldi r3, start_coloring
                     st r3, r3
@@ -398,19 +398,19 @@ go:
 
     else
 
-        # ldi r2, ball
-        # ld r2, r2
+        ldi r2, ball
+        ld r2, r2
 
-        # ld r0, r1
+        ld r0, r1
 
-        # or r1, r2
+        or r1, r2
 
-        # st r0, r2
-        # st r3, r2
+        st r0, r2
+        st r3, r2
 
-        # st r0, r1
+        st r0, r1
 
-        # xor r1, r2
+        xor r1, r2
 
         move r0, r1# в r1 окружающая среда
         
