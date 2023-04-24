@@ -13,11 +13,11 @@
     ldi r3, 1
 
     ldi r0, ball
-    ldi r1, 0b00000100
+    ldi r1, 0b01000000
     st r0, r1
 
     ldi r0, ballAdress
-    ldi r1, 0x87
+    ldi r1, 0x64
     st r0, r1
 
     ldi r0, forwardOrBack
@@ -44,10 +44,6 @@
 
         ldi r0, player_offset
         ld r0, r0
-
-        # Add display offset into player offset
-        ldi r2, display
-        add r2, r0
 
         # Load background
         ld r0, r2
@@ -286,26 +282,24 @@ isInTail: # Checks if player is in it's tail
 
 changeMovement:
     pushall
-	ldi r0, player_y # r0 - previous Y
-	ld r0, r0
+	ldi r2, player_y # r0 - previous Y
+	ld r2, r0
     push r0
     
-	ldi r0, player_x # r0 - previous X
-	ld r0, r0
+	ldi r3, player_x # r0 - previous X
+	ld r3, r0
     push r0
 	
-	jsr calculatePlayer
-	
-	ldi r0, player_x # r0 - current X
-	ld r0, r0
-	
-	ldi r1, player_y # r1 - current Y
-	ld r1, r1
+    # Update player position
+	ldi r0, calculate_player 
+	st r0, r0 
+
+	ld r3, r0 # r0 - current X
+	ld r2, r1 # r1 - current Y
 
     ldi r2, turns
     ldi r3, turn_count
     ld r3, r3
-
 
     if
         tst r3 # If there were zero turns
@@ -350,12 +344,6 @@ changeMovement:
     popall
 	
 	rts	
-	
-	
-calculatePlayer: # update player position
-	ldi r3, calculate_player 
-	st r3, r3 
-	rts
 
 go:
 
