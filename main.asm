@@ -13,11 +13,11 @@
     ldi r3, 1
 
     ldi r0, ball
-    ldi r1, 0b01000000
+    ldi r1, 0b00000100
     st r0, r1
 
     ldi r0, ballAdress
-    ldi r1, 0x64
+    ldi r1, 0x87
     st r0, r1
 
     ldi r0, forwardOrBack
@@ -363,11 +363,23 @@ go:
 
     ldi r0, ballAdress
     ld r0, r0
-
     ld r0, r1# в r1 окружающая среда
     ldi r2, ball# шарик
     ld r2, r2
-    ldi r3, flush
+
+    if
+        ldi r3, forwardOrBack
+        ld r3, r3
+        tst r3
+    is z
+
+        shr r2
+
+    else
+
+        shl r2
+    
+    fi
 
     if
         or r1, r2
@@ -396,8 +408,22 @@ go:
 
         fi
 
+        ldi r3, flush
+        ldi r2, ball
+        ld r2, r2
+
+        ld r0, r1
+
+        or r1, r2
+
+        st r0, r2
+        st r3, r2
+
+        st r0, r1
+
     else
 
+        ldi r3, flush
         ldi r2, ball
         ld r2, r2
 
