@@ -1,6 +1,36 @@
 	asect 0x00
 
+    ldi r0, override_screen
     ldi r1, 0
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r0, override_screen
+    ldi r1, 1
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r0, override_screen
+    ldi r1, 2
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r0, override_screen
+    ldi r1, 3
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r0, override_screen
+    ldi r1, 4
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r1, 8
     ldi r0, override_screen
     st r0, r1
     ldi r0, flush
