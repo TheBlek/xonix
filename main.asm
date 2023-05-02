@@ -1,40 +1,41 @@
 	asect 0x00
-
+ 
     ldi r0, override_screen
-    ldi r1, 0
+    ldi r1, 0b1000
     st r0, r1
     ldi r0, flush
     st r0, r0
 
     ldi r0, override_screen
-    ldi r1, 1
+    ldi r1, 0b1001
     st r0, r1
     ldi r0, flush
     st r0, r0
 
     ldi r0, override_screen
-    ldi r1, 2
+    ldi r1, 0b1010
     st r0, r1
     ldi r0, flush
     st r0, r0
 
-    ldi r0, override_screen
-    ldi r1, 3
+	ldi r0, override_screen
+    ldi r1, 0b1011
     st r0, r1
     ldi r0, flush
     st r0, r0
 
-    ldi r0, override_screen
-    ldi r1, 4
+	ldi r0, override_screen
+    ldi r1, 0b1100
     st r0, r1
     ldi r0, flush
     st r0, r0
 
-    ldi r1, 8
-    ldi r0, override_screen
+	ldi r0, override_screen
+    ldi r1, 0b1111
     st r0, r1
     ldi r0, flush
     st r0, r0
+
 
     # Initialize player byte
     ldi r0, player_byte
