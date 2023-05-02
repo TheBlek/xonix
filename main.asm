@@ -1,6 +1,36 @@
 	asect 0x00
 
+    ldi r0, override_screen
     ldi r1, 0
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r0, override_screen
+    ldi r1, 1
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r0, override_screen
+    ldi r1, 2
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r0, override_screen
+    ldi r1, 3
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r0, override_screen
+    ldi r1, 4
+    st r0, r1
+    ldi r0, flush
+    st r0, r0
+
+    ldi r1, 8
     ldi r0, override_screen
     st r0, r1
     ldi r0, flush
@@ -351,11 +381,23 @@ go:
 
     ldi r0, ballAdress
     ld r0, r0
-
     ld r0, r1# в r1 окружающая среда
     ldi r2, ball# шарик
     ld r2, r2
-    ldi r3, flush
+
+    if
+        ldi r3, forwardOrBack
+        ld r3, r3
+        tst r3
+    is z
+
+        shr r2
+
+    else
+
+        shl r2
+    
+    fi
 
     if
         or r1, r2
@@ -384,8 +426,22 @@ go:
 
         fi
 
+        ldi r3, flush
+        ldi r2, ball
+        ld r2, r2
+
+        ld r0, r1
+
+        or r1, r2
+
+        st r0, r2
+        st r3, r2
+
+        st r0, r1
+
     else
 
+        ldi r3, flush
         ldi r2, ball
         ld r2, r2
 
