@@ -113,9 +113,6 @@
                 ldi r0, ball
                 ld r0, r0
 
-                ldi r3, flush
-                st r3, r3
-
                 ldi r3, start_coloring
                 st r3, r3
 
