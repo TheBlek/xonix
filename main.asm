@@ -52,15 +52,10 @@
     st r0, r1
 
     ldi r0, forwardOrBack
-    ldi r1, 0
-    st r0, r1
+    st r0, r0
 
     ldi r0, diagonal
     ldi r1, 4
-    st r0, r1
-
-    ldi r0, upOrDown
-    ldi r1, 1
     st r0, r1
 
     while
@@ -136,10 +131,9 @@ go:
 
     pushall
 
-    ldi r3, forwardOrBack
-    ld r3, r0
     ldi r2, calculate_ball_horizontal
     st r2, r2
+
 
     if
         ldi r0, ballAdress
@@ -148,36 +142,19 @@ go:
 
         ldi r2, ball
         ld r2, r2
+
         or r1, r2
         cmp r1, r2 #    если шарик врезался в стену
     is eq
         # Flip a flag
-        if
-            ld r3, r3
-            tst r3
-        is z   
-    
-            ldi r1, 1
-            ldi r3, forwardOrBack
-
-            st r3, r1
-
-        else
-        
-            ldi r1, 0
-            ldi r3, forwardOrBack
-
-            st r3, r1
-
-        fi
+        ldi r3, forwardOrBack
+        st r3, r3
 
         # Move ball back
         ldi r2, calculate_ball_horizontal
         st r2, r2
     fi
 
-    ldi r3, upOrDown
-    ld r3, r1
     ldi r2, calculate_ball_vertical
     st r2, r2
 
@@ -192,23 +169,8 @@ go:
         cmp r1, r2 #    если шарик врезался в стену
     is eq
         # Flip a flag
-        if
-            ld r3, r3
-            tst r3
-        is z  
-
-            ldi r1, 1
-            ldi r3, upOrDown
-            st r3, r1
-
-        else 
-
-            ldi r1, 0
-            ldi r3, upOrDown
-
-            st r3, r1
-
-        fi
+        ldi r3, upOrDown
+        st r3, r3
 
         # Move ball back
         ldi r2, calculate_ball_vertical
