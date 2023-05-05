@@ -51,7 +51,7 @@
     ldi r1, 0x64
     st r0, r1
 
-    ldi r0, forwardOrBack
+    ldi r0, toggle_horizontal_direction
     st r0, r0
 
     ldi r0, diagonal
@@ -114,6 +114,19 @@
                 ldi r1, 0
                 ldi r3, override_screen
                 st r3, r1
+
+                if
+                    ldi r0, is_winnin
+                    ld r0, r0
+                    tst r0
+                is nz
+                    ldi r0, override_screen
+                    ldi r1, 0b1110
+                    st r0, r1
+                    ldi r0, flush
+                    st r0, r0
+                    halt
+                fi
                 popall
             fi
         fi
@@ -152,7 +165,7 @@ go:
             tst r3
         is nz
             # Flip a flag
-            ldi r3, forwardOrBack
+            ldi r3, toggle_horizontal_direction
             st r3, r3
 
             # Move ball back
@@ -188,7 +201,7 @@ go:
             tst r3
         is nz
             # Flip a flag
-            ldi r3, upOrDown
+            ldi r3, toggle_vertical_direction
             st r3, r3
 
             # Move ball back
@@ -231,12 +244,13 @@ define start_coloring, 0x06
 define is_on_solid_ground, 0x07
 
 define ball, 0x08
-define upOrDown, 0x09
-define forwardOrBack, 0x0A
+define toggle_vertical_direction, 0x09
+define toggle_horizontal_direction, 0x0A
 define diagonal, 0x0B
 define ballAdress, 0x0C
 define calculate_ball_horizontal, 0x0D
 define calculate_ball_vertical, 0x0E
+define is_winnin, 0x0F
 
 define reset_keyboard, 0x5e
 define flush, 0x5f
