@@ -146,13 +146,26 @@ go:
         or r1, r2
         cmp r1, r2 #    если шарик врезался в стену
     is eq
-        # Flip a flag
-        ldi r3, forwardOrBack
-        st r3, r3
+        if
+            ldi r3, is_on_solid_ground
+            ld r3, r3
+            tst r3
+        is nz
+            # Flip a flag
+            ldi r3, forwardOrBack
+            st r3, r3
 
-        # Move ball back
-        ldi r2, calculate_ball_horizontal
-        st r2, r2
+            # Move ball back
+            ldi r2, calculate_ball_horizontal
+            st r2, r2
+        else
+            ldi r0, override_screen
+            ldi r1, 0b1101
+            st r0, r1
+            ldi r0, flush
+            st r0, r0
+            halt
+        fi
     fi
 
     ldi r2, calculate_ball_vertical
@@ -161,20 +174,34 @@ go:
     if
         ldi r0, ballAdress
         ld r0, r0
-        ld r0, r1
+        ld r0, r2
 
-        ldi r2, ball
-        ld r2, r2
-        or r1, r2
-        cmp r1, r2 #    если шарик врезался в стену
+        ldi r1, ball
+        ld r1, r1
+        move r1, r3
+        or r2, r3
+        cmp r2, r3 #    если шарик врезался в стену
     is eq
-        # Flip a flag
-        ldi r3, upOrDown
-        st r3, r3
+        if
+            ldi r3, is_on_solid_ground
+            ld r3, r3
+            tst r3
+        is nz
+            # Flip a flag
+            ldi r3, upOrDown
+            st r3, r3
 
-        # Move ball back
-        ldi r2, calculate_ball_vertical
-        st r2, r2
+            # Move ball back
+            ldi r2, calculate_ball_vertical
+            st r2, r2
+        else
+            ldi r0, override_screen
+            ldi r1, 0b1101
+            st r0, r1
+            ldi r0, flush
+            st r0, r0
+            halt
+        fi
     fi
 
     ldi r3, flush
